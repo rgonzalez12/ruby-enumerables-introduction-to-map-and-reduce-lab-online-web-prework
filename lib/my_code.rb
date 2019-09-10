@@ -24,7 +24,7 @@ def map_to_double(source_array)
   new = []
   i = 0
   while i < source_array.length do
-  new.push( source_array[i] * 2 ) # <== Unique work
+  new.push( source_array[i] * 2 ) 
     i += 1
   end
   return new
@@ -34,7 +34,7 @@ def map_to_square(source_array)
    new = []
   i = 0
   while i < source_array.length do
-  new.push( source_array[i] * source_array[i] ) # <== Unique work
+  new.push( source_array[i] * source_array[i] ) 
     i += 1
   end
   return new
