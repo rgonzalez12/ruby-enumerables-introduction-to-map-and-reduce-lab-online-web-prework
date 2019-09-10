@@ -8,7 +8,6 @@ def map_to_negativize(source_array)
     i += 1
   end
   return new
- #source_array.map {|element_value| element_value * -1}
 end
 
 def map_to_no_change(source_array)
